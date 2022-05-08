@@ -88,7 +88,7 @@ nav {
   background-color: var(--main-pink);
   border: 0;
   color: var(--background);
-  padding: 20px;
+  padding: 1.5vw;
   margin: 20px;
   font-size: 1.2vw;
   font-weight: 800;
@@ -98,4 +98,23 @@ nav {
 
 .buttons button:hover {
   background-color: #c12340;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-links {
+    width: 50%;
+  }
+  .header {
+    max-width: 30%;
+  }
+  .header h1 {
+    font-size: 5vw;
+  }
+  .buttons button {
+    border-radius: 10px;
+    font-size: 2vw;
+  }
+  .home-page h2 {
+    font-size: 2vw;
+  }
 }

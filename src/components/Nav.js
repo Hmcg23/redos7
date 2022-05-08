@@ -1,9 +1,16 @@
+import { useEffect } from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Nav() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh(); 
+      }, []);
   return (
-    <nav>
+    <nav data-aos='fade-down' data-aos-duration='1000'>
         <Link to='/'><h1>RedOS 7</h1></Link>
         <ul className='nav-links'>
             <Link to='/design'><li>Design</li></Link>
