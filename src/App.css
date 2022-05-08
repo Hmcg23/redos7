@@ -10,6 +10,15 @@
   --background: #FFF1F4;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Nav Bar */
 
 nav {
@@ -36,7 +45,15 @@ nav {
   background-color: var(--main-pink);
   padding: 15px;
   border-radius: 15px;
+  transition: 0.2s ease-in-out;
+}
+.apply a {
+  text-decoration: none;
   color: var(--background);
+}
+.apply:hover {
+  background-color: #c12340;
+  cursor: pointer;
 }
 
 /* Home Page */
@@ -65,4 +82,20 @@ nav {
 
 .red-text {
   color: var(--main-pink);
+}
+
+.buttons button {
+  background-color: var(--main-pink);
+  border: 0;
+  color: var(--background);
+  padding: 20px;
+  margin: 20px;
+  font-size: 1.2vw;
+  font-weight: 800;
+  border-radius: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+.buttons button:hover {
+  background-color: #c12340;
 }
