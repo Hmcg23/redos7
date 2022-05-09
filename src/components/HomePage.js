@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import '../App.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom';
 
 function HomePage() {
     useEffect(() => {
@@ -16,7 +17,7 @@ function HomePage() {
             <h2>Our new website helps members to collaborate & understand each other better. It also helps guests to apply easier.</h2>
             <div className='buttons'>
                 <a href='https://discord.com/invite/hCW8V8rJRs' target='_blank' rel="noreferrer"><button>Apply</button></a>
-                <button>Learn More</button>
+                <Link to='/about'><button>Learn More</button></Link>
             </div>
 
       </section>

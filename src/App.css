@@ -88,19 +88,19 @@ nav {
   color: var(--main-pink);
 }
 
-.buttons button {
+button {
   background-color: var(--main-pink);
   border: 0;
   color: var(--background);
   padding: 1.5vw;
   margin: 20px;
   font-size: 1.2vw;
-  font-weight: 800;
+  font-weight: bold;
   border-radius: 15px;
   transition: 0.2s ease-in-out;
 }
 
-.buttons button:hover {
+button:hover {
   background-color: #c12340;
 }
 
