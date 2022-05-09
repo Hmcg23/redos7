@@ -140,6 +140,7 @@ button:hover {
   color: var(--main-pink);
   margin: 0;
   font-size: 1.8vw;
+  text-align: left;
 }
 
 .members {
@@ -158,6 +159,7 @@ button:hover {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
+  text-decoration: underline;
 }
 
 .about-images img {

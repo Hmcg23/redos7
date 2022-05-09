@@ -48,6 +48,7 @@ function About() {
             </div>
           </div>
         </div>
+        <h2>More - Quick Links</h2>
         <div className='about-images'>
           <a href='https://scratch.mit.edu/studios/31229278/' target='_blank' rel='noreferrer' data-aos='zoom-in-up' data-aos-duration='1000'>
             <div className='about-image'>
