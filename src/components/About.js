@@ -49,25 +49,25 @@ function About() {
           </div>
         </div>
         <div className='about-images'>
-          <a href='https://scratch.mit.edu/studios/31229278/' target='_blank' rel='noreferrer' >
+          <a href='https://scratch.mit.edu/studios/31229278/' target='_blank' rel='noreferrer' data-aos='zoom-in-up' data-aos-duration='1000'>
             <div className='about-image'>
               <img src={redos_studio} alt='redos studio' />
               <h3>RedOS 7 Studio</h3>
             </div>            
           </a>
-          <a href='https://scratch.mit.edu/projects/653970557/' target='_blank' rel='noreferrer'>
+          <a href='https://scratch.mit.edu/projects/653970557/' target='_blank' rel='noreferrer' data-aos='zoom-in-up' data-aos-duration='1000' data-aos-delay='200'>
             <div className='about-image'>
               <img src={oswars_info} alt='oswars info' />
               <h3>OS Wars Info</h3>
             </div>
           </a>
-          <a href='https://scratch.mit.edu/projects/638012399/' target='_blank' rel='noreferrer'>
+          <a href='https://scratch.mit.edu/projects/638012399/' target='_blank' rel='noreferrer' data-aos='zoom-in-up' data-aos-duration='1000' data-aos-delay='400'>
             <div className='about-image'>
               <img src={oswars_reveal} alt='oswars reveal' />
               <h3>OS Wars Reveal</h3>
             </div>
           </a>
-          <a href='https://scratch.mit.edu/projects/670615845/' target='_blank' rel='noreferrer'>
+          <a href='https://scratch.mit.edu/projects/670615845/' target='_blank' rel='noreferrer' data-aos='zoom-in-up' data-aos-duration='1000' data-aos-delay='600'>
             <div className='about-image'>
               <img src={oswars_round1} alt='oswars round1' />
               <h3>OS Wards Round 1</h3>
