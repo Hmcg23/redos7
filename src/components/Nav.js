@@ -24,9 +24,10 @@ function Nav() {
         </div>
 
         <ul className={`nav-links ${active}`}>
-            <NavLink to='/design'><li>Design</li></NavLink>
-            <NavLink to='/code'><li>Code</li></NavLink>
-            <NavLink to='/about'><li>About</li></NavLink>
+            <NavLink to='/' style={({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })}><li>Home</li></NavLink>
+            <NavLink to='/design' style={({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })}><li>Design</li></NavLink>
+            <NavLink to='/code' style={({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })}><li>Code</li></NavLink>
+            <NavLink to='/about' style={({ isActive }) => ({ textDecoration: isActive ? 'underline' : 'none' })}><li>About</li></NavLink>
             <li className='apply'><a href='https://discord.com/invite/hCW8V8rJRs' target='_blank' rel="noreferrer">Apply</a></li>
         </ul>
         

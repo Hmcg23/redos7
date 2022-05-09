@@ -178,7 +178,7 @@ button:hover {
   .nav-links li {
     padding: 20px;
   }
-  .nav-links :nth-child(4) {
+  .nav-links :nth-child(5) {
     display: none;
   }
   nav {
