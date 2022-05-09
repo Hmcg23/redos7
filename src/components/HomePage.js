@@ -3,6 +3,7 @@ import '../App.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
+import redos7logo from '../images/redos7logo.png'
 
 function HomePage() {
     useEffect(() => {
@@ -11,7 +12,9 @@ function HomePage() {
       }, []);
   return (
       <section className='home-page' data-aos='fade-up' data-aos-duration='1000'>
+            
             <div className='header'>
+                <img src={redos7logo} alt='redos7 logo' className='redos-logo' />
                 <h1>a new place for <span className='red-text'>RedOS 7</span></h1> 
             </div>
             <h2>Our new website helps members to collaborate & understand each other better. It also helps guests to apply easier.</h2>
