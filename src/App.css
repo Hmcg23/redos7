@@ -121,6 +121,45 @@ button:hover {
   background-color: #c12340;
 }
 
+/* About Page */
+.about {
+  margin-left: 3vw;
+}
+
+.text-info {
+  text-align: left;
+  max-width: 50%;
+}
+
+.about h1 {
+  margin-top: 1vw;
+  font-size: 4vw;
+}
+
+.about h2 {
+  color: var(--main-pink);
+  margin: 0;
+}
+
+.members {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.about-images {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-images img {
+  max-width: 20vw;
+  border: 3px solid var(--main-pink);
+  border-radius: 20px;
+  margin: 1vw;
+}
+
 @media only screen and (max-width: 1000px) {
   .nav-links {
     width: 50%;
