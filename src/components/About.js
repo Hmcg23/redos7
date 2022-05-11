@@ -17,10 +17,13 @@ function About() {
   return (
       <section data-aos='fade-up' data-aos-duration='1000' className='about'>
         <div className='text-info'>
-            <h1>About</h1>
+            <h1 className='page-h1'>About</h1>
           <h2>What is OS Wars?</h2>
-          <p>OS Wars is a scratch competition where different teams compete to create an operating system. Teams compete in multiple rounds, with specific criteria to be judged on. In the end, each team will have a fully functional operating system. The best one comes on top.</p>
+          <p>OS Wars is a team competition where the goal is to design and program the best operating. Over the course of several rounds, judges submit scores for each team on different criteria. At the end, the team with the most points wins!</p>
+          <h2>How to join?</h2>
+          <p>To join, check in our <a className='red-text underline' href='https://discord.com/invite/hCW8V8rJRs'>discord</a> server! More information regarding your application is over there. If you do not have access to discord, check out the forums, or our <a className='red-text underline' href='https://discord.com/invite/hCW8V8rJRs'>studio</a>.</p>
           <h2>Our Team</h2>
+          <p>We're still looking for members, but here is our current team:</p>
           <div className='members'>
             <div className='member-section'>
               <h3>Leaders</h3>

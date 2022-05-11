@@ -19,7 +19,6 @@ function Nav() {
             <NavLink to='/'><h1>RedOS 7</h1></NavLink>
             <FontAwesomeIcon icon={faBars} className='burger-icon' onClick={() => {
                 active === '' ? setActive('active') : setActive('')
-                console.log(active);
             }} />            
         </div>
 
