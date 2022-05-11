@@ -74,7 +74,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:end;
+  justify-content: flex-end;
 }
 .header {
   max-width: 40%;
@@ -121,6 +121,9 @@ button:hover {
   background-color: #c12340;
 }
 
+.footer {
+  font-size: 0.8vw;
+}
 /* About Page */
 .about {
   margin-left: 3vw;
@@ -128,7 +131,7 @@ button:hover {
 
 .text-info {
   text-align: left;
-  max-width: 50%;
+  max-width: 70%;
 }
 
 .about h1 {
@@ -145,25 +148,36 @@ button:hover {
 
 .members {
   display: flex;
-  max-width: 100%;
   justify-content: space-between;
 }
 .members h3 {
   text-align: left;
 }
 .members ul {
-  padding-left: 0;
+  padding-left: 1vw;
   text-align: left;
+  list-style: none;
 }
+.studio-image img {
+  max-width: 30vw;
+  border: 3px solid var(--main-pink);
+  border-radius: 20px;
+}
+.studio-image h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
 .about-images {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   text-decoration: underline;
+  justify-content: center;
 }
 
 .about-images img {
-  max-width: 20vw;
+  max-width: 25vw;
   border: 3px solid var(--main-pink);
   border-radius: 20px;
   margin: 1vw;
@@ -268,7 +282,7 @@ button:hover {
   .about-images {
     flex-direction: column;
   }
-  .about-images img {
-    max-width: 80%;
+  .about-images img, .studio-image img {
+    max-width: 90%;
   }
 }
