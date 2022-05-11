@@ -39,7 +39,7 @@ function Design() {
             <img src={redos7logo} alt='redos7 logo' />
             <div className='design-page-text'>
               <h2>Graphics</h2>
-              <h3>Icons that are consistent</h3>              
+              <h3>Icons that are consistent with us</h3>              
             </div>
 
           </div>    

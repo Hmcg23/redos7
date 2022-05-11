@@ -222,9 +222,10 @@ button:hover {
   border-radius: 15px;
 }
 .design-page-text {
+  grid-column: 1 / span 2;
   grid-row: 2;
   align-self: flex-end;
-  padding-left: 5%;
+  padding-left: 5px;
 }
 
 .design-page-box-colors {
@@ -389,18 +390,18 @@ button:hover {
   .design-page-grid {
     display:block;
     width: 90%;
+    height: 100%;
   }
   .design-page-box-branding, .design-page-box-colors, .design-page-box-graphics, .design-page-box-typo {
-    height: 25vw;
+    height: 35vw;
     margin: 5vw 0;
-    padding-bottom: 3vw;
   }
   .design-page-text h2 {
-    font-size: 5vw;
+    font-size: 7vw;
     margin: 0;
   }
   .design-page-text h3 {
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 0;
   }
   .design-page-grid img {
