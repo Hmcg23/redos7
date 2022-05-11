@@ -180,6 +180,10 @@ button:hover {
   justify-content: center;
 }
 
+.about-images h3 {
+  text-align: center;
+}
+
 .about-images img {
   max-width: 25vw;
   border: 3px solid var(--main-pink);
@@ -215,7 +219,7 @@ button:hover {
   grid-template-rows: 1fr 1fr;
   text-align: left;
   padding: 1vw;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 .design-page-text {
   grid-row: 2;
@@ -243,7 +247,7 @@ button:hover {
   grid-template-rows: 1fr 1fr;
   text-align: left;
   padding: 1vw;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 .design-page-box-graphics {
   grid-column: 62 / span 50;
@@ -254,7 +258,7 @@ button:hover {
   grid-template-rows: 1fr 1fr;
   text-align: left;
   padding: 1vw;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 .design-page-box h2, h3 {
   margin: 0;
@@ -270,12 +274,13 @@ button:hover {
 }
 .design-page-grid img {
   align-self: start;
-  max-width: 50px;
+  max-width: 5vw;
   border-radius: 10px;
+  transition: max-width 0.3s ease-in-out;
 }
 
 .design-page-grid img:hover {
-  max-width: 100px;
+  max-width: 7vw;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -379,5 +384,32 @@ button:hover {
   }
   .about-images img, .studio-image img {
     max-width: 90%;
+  }
+  /* Design Page */
+  .design-page-grid {
+    display:block;
+    width: 90%;
+  }
+  .design-page-box-branding, .design-page-box-colors, .design-page-box-graphics, .design-page-box-typo {
+    height: 25vw;
+    margin: 5vw 0;
+    padding-bottom: 3vw;
+  }
+  .design-page-text h2 {
+    font-size: 5vw;
+    margin: 0;
+  }
+  .design-page-text h3 {
+    font-size: 2vw;
+    margin: 0;
+  }
+  .design-page-grid img {
+    padding: 10px;
+    align-self: start;
+    max-width: 10vw;
+    border-radius: 15px;
+  }
+  .design-page-grid img:hover {
+    max-width: 10vw;
   }
 }
