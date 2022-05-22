@@ -21,7 +21,7 @@ function About() {
           <h2>What is OS Wars?</h2>
           <p>OS Wars is a team competition where the goal is to design and program the best operating. Over the course of several rounds, judges submit scores for each team on different criteria. At the end, the team with the most points wins!</p>
           <h2>How to join?</h2>
-          <p>To join, check in our <a className='red-text underline' href='https://discord.com/invite/hCW8V8rJRs'>discord</a> server! More information regarding your application is over there. If you do not have access to discord, check out the forums, or our <a className='red-text underline' href='https://discord.com/invite/hCW8V8rJRs'>studio</a>.</p>
+          <p>To join, check in our <a className='red-text underline' href='https://discord.com/invite/hCW8V8rJRs'>discord</a> server! More information regarding your application is over there. If you do not have access to discord, check out the <a className='red-text underline' href='https://scratch.mit.edu/discuss/topic/594771/'>forums</a>, or our <a className='red-text underline' href='https://scratch.mit.edu/studios/31229278/'>studio</a>.</p>
           <h2>Our Team</h2>
           <p>We're still looking for members, but here is our current team:</p>
           <div className='members'>
